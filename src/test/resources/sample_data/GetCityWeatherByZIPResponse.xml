@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:GetCityWeatherByZIPResponse xmlns:ns0="http://ws.cdyne.com/WeatherWS/">
+  <ns0:GetCityWeatherByZIPResult>
+    <ns0:Success>true</ns0:Success>
+    <ns0:ResponseText>????</ns0:ResponseText>
+    <ns0:State>????</ns0:State>
+    <ns0:City>????</ns0:City>
+    <ns0:WeatherStationCity>Soething</ns0:WeatherStationCity>
+    <ns0:WeatherID>1</ns0:WeatherID>
+    <ns0:Description>????</ns0:Description>
+    <ns0:Temperature>????</ns0:Temperature>
+    <ns0:RelativeHumidity>????</ns0:RelativeHumidity>
+    <ns0:Wind>????</ns0:Wind>
+    <ns0:Pressure>????</ns0:Pressure>
+    <ns0:Visibility>????</ns0:Visibility>
+    <ns0:WindChill>????</ns0:WindChill>
+    <ns0:Remarks>????</ns0:Remarks>
+  </ns0:GetCityWeatherByZIPResult>
+</ns0:GetCityWeatherByZIPResponse>

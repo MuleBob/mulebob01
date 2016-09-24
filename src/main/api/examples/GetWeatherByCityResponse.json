@@ -1,0 +1,23 @@
+{
+  "weather": {
+    "GetCityWeatherByZIPResponse": {
+      "GetCityWeatherByZIPResult": {
+        "Success": "true",
+        "ResponseText": "City Found",
+        "State": "IA",
+        "City": "Earlham",
+        "WeatherStationCity": "Peru",
+        "WeatherID": "14",
+        "Description": "Cloudy",
+        "Temperature": "59",
+        "RelativeHumidity": "94",
+        "Wind": "SE10",
+        "Pressure": "29.96S",
+        "Visibility": "",
+        "WindChill": "",
+        "Remarks": ""
+      }
+    }
+  },
+  "forecast": "http://localhost:8081/service/forecast/city?zip=50072"
+}

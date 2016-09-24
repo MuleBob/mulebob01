@@ -1,0 +1,24 @@
+#%RAML 0.8
+title: WeatherService
+version: 1.0
+baseUri: http://localhost:8081/service
+mediaType: application/json
+protocols: [HTTP, HTTPS]
+
+/weather:
+  displayName: Weather
+  /city:
+    displayName: City
+    get:
+      description: Gives City weather information
+      queryParameters:
+        zip:
+          displayName: City ZIP
+          example: 50072
+          required: true
+          pattern: "^[0-9]{5,5}$"
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include C:\Mule\codespace\weather-rest-service\src\main\api\examples\GetWeatherByCityResponse.json
